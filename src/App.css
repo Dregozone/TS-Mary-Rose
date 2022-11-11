@@ -1,38 +1,36 @@
-.App {
+html {
+  font-family: sans-serif;
+  background-color: #00a0c41f;
+  background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+  background-size: 100%;
+}
+
+.wholeContainer {
+  border-left: 1px solid #00A0C44d;
+  border-right: 1px solid #00a0c44d;
+  box-shadow: 0 0 35px 1px #00A0C4;
+  background: aliceblue;
+  margin: 0 4%;
+  width: 92%;
+}
+
+header, nav, main, footer {
+  padding: 1%;
+}
+
+.sccLogo {
+  max-height: 100px;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.latest {
+  width: 25%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .latestItem {
+    border: 1px solid #00a0c44d;
+    padding: 0 5%;
+    margin: 3%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
